@@ -3,7 +3,7 @@ import {DB_NAME} from "../constants.js"
 
 const connectdb= async()=>{
     try{
-        const connection=await mongoose.connect(`${process.env.MONGODB_URI}`)
+        const connection=await mongoose.connect("mongodb+srv://vedikadnd:vedikadnd@cluster0.m1nc5.mongodb.net/Twitch")
         console.log(` mongodb connectted!! DB HOST`)
         console.log(connection)
     }catch(error){
