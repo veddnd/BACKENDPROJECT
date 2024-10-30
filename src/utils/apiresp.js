@@ -7,4 +7,4 @@ class apiresp{
     }
 }
 
-export { apiresp}
+export {apiresp}
